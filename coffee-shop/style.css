@@ -1,0 +1,245 @@
+html {
+  background-image: linear-gradient(#ffd89b, #19547b); 
+  background-repeat: no-repeat;
+  height:100%;
+
+}
+
+body {
+  /* color:white;  */
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto Slab', serif;  color: white;
+  font-size: 1.12rem;
+  
+
+}
+
+.container {
+  width: 1024px;
+  /* background-color: brown; */
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+main {
+  /* background-color: rgb(110, 103, 97); */
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  margin-bottom:40px;
+  margin-top:10px;
+}
+
+.main2{
+  min-height:300px;
+  padding-top:75px; 
+}
+
+
+
+.cards {
+   display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+
+
+.card1 {
+  background-image: url(images/background1.jpg);
+  
+  min-height: 250px;
+  background-position: bottom;
+  background-size: cover;
+  width: 30%;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.877);
+
+}
+.card2 {
+  background-image: url(images/background2.jpg);
+  min-height: 250px;
+  width: 30%;
+  background-position: bottom;
+  background-size: cover;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.842);
+
+}
+.card3 {
+  background-image: url(images/background3.jpg);
+  min-height: 250px;
+  width: 30%;
+  background-position: bottom;
+  background-size: cover;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.904);
+
+}
+
+
+.herobox1 {
+  flex: 2;
+  /* background-color: greenyellow; */
+  padding-right: 150px;
+
+
+}
+
+.herobox1 p{
+  color:black;
+}
+
+.herobox2 {
+  flex: 1;
+  /* background-color: rgba(172, 255, 47, 0.274); */
+}
+
+h1{
+ font-size: 3.25rem;
+ font-family: font-family: "Montserrat", sans-serif;
+ margin-bottom: 0.9rem;
+ text-shadow: 5px 5px 5px rgba(0,0,0,0.9);
+}
+
+
+h2{
+  font-size: 2rem;
+  font-family: font-family: "Montserrat", sans-serif;
+  margin-top:20px;
+  font-weight:1000;
+  color:white;
+}
+
+p{
+line-height: 1.75rem; 
+color: white;
+font-weight: 400;
+ }
+.cards p {
+  font-size: 2rem;
+  line-height: 1.7rem; 
+  margin-top: 30px;
+  color: #fbff07;
+font-weight:750;
+}
+
+
+.card1, .card2, .card3{
+  padding:30px 30px 20px 30px;
+  box-sizing: border-box;
+  border-radius:20% ;
+  
+  }
+
+
+  .herobox1 a{
+   color: rgb(255, 238, 0);
+   text-decoration: none;
+   font-weight: 700;
+   /* why did it not apply padding top here???check this! */
+
+}
+
+.hero1button{
+  background-color:#ff0000a4;
+  color: #020101;
+  font-family: "Montserrat", sans-serif;
+/* add slightly different font to main here */
+   padding: 11px 25px 11px 25px;
+   display: inline-block;
+   margin-top:20px;
+   border-radius: 0px 2000px 2000px 0px; 
+   box-shadow: 6px 6px 6px rgba(192, 80, 80, 0.603);
+
+}
+.hero1button:hover{
+  background-color:rgba(144, 238, 144, 0.384);
+  transition-duration: 1s;
+}
+
+a.hero1button{
+  display: inline-block;
+  margin-top:20px;
+}
+nav a.hero1button{
+  margin-left: 15px;
+  border-radius: 0px 0px 0px 0px; 
+}
+.navigationbutton{
+border: 1px solid rgba(0, 0, 0, 0.349);
+text-decoration: none;
+padding: 11px 25px; 
+font-family: 'Roboto Slab', serif;  color: rgb(228, 81, 81);
+display: inline-block;
+position: relative;}
+
+
+
+}
+.reviewbox{
+  width:47%;
+  padding:50px;
+  border:1px solid white;
+  box-sizing:border-box;
+  margin-top: 50px;
+}
+.testimonials{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom:50px;
+}
+
+.reviewbox :last-child{
+font-size: 0.9rem;
+padding-left:15px;
+
+}
+.drop-down-box{
+  display: none;
+  position: absolute;
+  z-index: 999;
+  padding-top: 20px;
+  margin-left:-18px;
+}
+
+/* .drop-down-box {
+  display: none;
+  position: absolute;
+  z-index: 99999999;
+  padding-top: 20px;
+  margin-left: -30px;
+} */
+
+
+.navigationbutton:hover .drop-down-box{
+  display:block;
+}
+.drop-down-box .navigationbutton{
+  width: 120px;
+}
+
+.heroboximage{
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.904);
+  border-radius:6% ;
+
+}
+
+a{
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+.inputform666{
+  margin-top: 25px;
+}

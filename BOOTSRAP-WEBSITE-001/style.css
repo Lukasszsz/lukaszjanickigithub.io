@@ -1,0 +1,30 @@
+body{
+font-weight: 300;
+background: linear-gradient(#1CB5E0,#000046 );
+
+
+
+
+
+}
+.bg{
+    background-color: rgba(95, 158, 160, 0.438);
+}
+.pxwide{
+    margin: 50px;
+    margin-top: 10px;
+}
+.whitecolor{
+    color:white;
+}
+.largerfontp{
+    font-size: larger;
+    font-weight:bold;
+}
+.fontweightp{
+    font-weight:bold;
+
+}
+.navbar{
+    background-color: rgb(19, 165, 170);
+}

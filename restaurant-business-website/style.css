@@ -1,0 +1,105 @@
+
+
+
+
+
+
+html{
+    height:100%;
+
+
+}
+body {
+  background-color: rgb(0, 0, 0);
+  background-image: url(images/backgroundbeatifulpurple.jpg), linear-gradient(red, yellow);
+  
+  background-size: cover, 100%;
+  background-repeat: no-repeat, no-repeat ;
+  background-position:center; 
+
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+}
+
+header {
+      height: 118px;
+  text-align: center;
+  font-size: 6;
+}
+
+nav {
+  background-color: rgba(212, 100, 9, 0.192);
+  text-align: center;
+padding-top: 14px;
+padding-bottom: 14px;
+
+
+}
+
+main {  height: 400px;
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+
+footer {
+  background-color: rgba(37, 34, 112, 0.068);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-style: italic;
+
+}
+
+h1{font-size:84px;
+color:rgb(163, 83, 29)
+font-family:Arial, Helvetica, sans-serif;
+
+}
+
+p{font-size:20px;
+    color:rgb(170, 15, 15)
+    font-family:Arial, Helvetica, sans-serif;}
+a{
+    color:rgb(117, 196, 142);
+    font-family: 'Montserrat', sans-serif;
+    font-size:24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+nav a {
+    font-size:20px;
+    font-weight: 900;
+    padding-left: 10px; 
+    padding-right: 10px;
+    font-family: 'Montserrat', sans-serif;}
+
+    footer p{
+        font-size:14px;
+        text-align: center;
+         text
+    }
+    #fontstylingmain{
+        font-style: italic;
+     color:#e6e688;
+    }
+    .map__padding{
+        padding-bottom: 100px;
+        padding-top: 250px;
+    }
+    .mapbooking{
+        padding-bottom: 50px;
+    }
+    .promotional__video{
+        padding-top: 250px;
+        padding-bottom: 250px;}
+        #bottomfootertext{
+            color: whitesmoke;
+            font-style: oblique;
+        }
